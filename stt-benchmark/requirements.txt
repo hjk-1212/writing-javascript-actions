@@ -1,0 +1,10 @@
+requests>=2.31
+rapidfuzz>=3.0
+scipy>=1.10        # 화자 짝 맞추기(없으면 8명까지는 순열로 계산)
+pytest>=8          # 테스트용
+
+# 자체 Whisper 엔진을 쓸 때만
+faster-whisper>=1.1
+av<14              # faster-whisper 1.2.x는 PyAV 14 이상에서 파일 열기 오류가 남
+# 화자 구분까지 쓸 때만(HF_TOKEN 필요)
+# pyannote.audio>=3.1
