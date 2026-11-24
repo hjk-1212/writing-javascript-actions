@@ -1,0 +1,7 @@
+# 녹음·정답·결과는 회의 내용이 들어 있으므로 저장소에 올리지 않는다.
+data/
+manual/
+results/
+.env
+__pycache__/
+.pytest_cache/
